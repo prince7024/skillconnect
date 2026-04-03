@@ -38,7 +38,7 @@ SkillConnect is a MERN stack platform that connects users with local service pro
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/skillconnect.git
+    git clone https://github.com/prince7024/skillconnect.git
     cd skillconnect/backend
     ```
 
@@ -100,13 +100,21 @@ VITE_API_URL=http://localhost:5000/api
 - `POST /api/auth/login` - User login
 - `GET /api/services` - Fetch all services
 - `POST /api/bookings` - Create a booking
-- `GET /api/providers` - Fetch providers (for admins/providers)
+- `GET /api/providers` - Fetch providers 
 
-## Screenshots
+## 📸 Screenshots
 
-- Placeholder for homepage screenshot
-- Placeholder for service search page
-- Placeholder for booking confirmation
+### Home Page
+![Home](screenshots/home.png)
+
+### Service Page
+![Service](screenshots/service.png)
+
+### Signup Page
+![Signup](screenshots/signup.png)
+
+### User Dashboard
+![User Dashboard](screenshots/userdashboard.png)
 
 ## Deployment
 
@@ -117,7 +125,6 @@ VITE_API_URL=http://localhost:5000/api
 
 - Add payment integration (Stripe)
 - Implement real-time chat between users and providers
-- Add review and rating system
 - Mobile app development
 
 ## Author
